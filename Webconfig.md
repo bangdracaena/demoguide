@@ -52,7 +52,7 @@ Option 1: Run miner by command line
 ```
 _Note_ 
  
- ` -e 1 : Mode auto-tonning mode (Miner will find the best frequency and run it)`
+ ` -e 1 : Mode auto-tunning mode (Miner will find the best frequency and run it)`
 
  ` -e 4 : Mode manual  (Miner will receive input clock parameters from command line `
 
