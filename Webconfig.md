@@ -18,15 +18,16 @@ Enable cgi mode
 	sudo ln -s  /usr/lib/cgi-bin
  ```
  Update html file 
+ 
  ```bash
 	sudo cp -R  * /var/www/html/
 	sudo chown -R www-data:www-data /var/www/html/
-  ```
+ ```
  Restart apache service
+ 
  ```bash
 	sudo /etc/init.d/apache2  restart
  ```
-
 # 2. Load bitstream into FPGA
 
 step 1: Open vivado lab
