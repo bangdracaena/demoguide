@@ -1,4 +1,4 @@
-# 1. Web settings
+# 1. Web settings  (Installed on zynq board)
 Install apache 2
 ```bash
 	sudo apt update
@@ -28,7 +28,7 @@ Enable cgi mode
  ```bash
 	sudo /etc/init.d/apache2  restart
  ```
-# 2. Load bitstream into FPGA
+# 2. Load bitstream into FPGA (Load from vivado)
 
 step 1: Open vivado lab
 
@@ -43,7 +43,7 @@ step 5: update E300 Box's IP address and port  (FPGA1 : port 2541 ; FPGA2: port 
 step 6: Right click "vu35p/xcu50..." => "Program device" => linking to bitstream file => "program"
 
 
-# 3. Running miner
+# 3. Running miner (Run on ubuntu machine)
 There are two options for run miner
 
 Option 1: Run miner by command line
