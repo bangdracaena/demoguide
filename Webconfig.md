@@ -28,9 +28,8 @@ Enable cgi mode
  ```bash
 	sudo /etc/init.d/apache2  restart
  ```
-/![Test Image 1](mdimage/login.png)
+![Test Image 1](mdimage/login.png)
 
-/home/enigma/Pictures/login.png
 # 2. Load bitstream into FPGA (Load from vivado)
 
 step 1: Open vivado lab
